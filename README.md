@@ -32,7 +32,7 @@
 
 Локально должны быть заданы параметры в local.properies
 ```
-gradle clean
+gradle clean test
 ```
 Для запуска в несколько потоков
 ```

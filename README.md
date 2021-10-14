@@ -1,10 +1,10 @@
 # Проект по автоматизации тестирования форм:
 
-### :heavy_check_mark: [входа в личный кабинет иностранного гражданина](https://mmc.mos.ru/client-office/security/auth-rvg/login?2&service=http://mmc.mos.ru/client-office/auth/signin-cas) Многофункционального миграционного центра г. Москвы (далее ММЦ),
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [входа в личный кабинет иностранного гражданина](https://mmc.mos.ru/client-office/security/auth-rvg/login?2&service=http://mmc.mos.ru/client-office/auth/signin-cas) Многофункционального миграционного центра г. Москвы (далее ММЦ),
 
-### :heavy_check_mark: [регистрации личного кабинета иностранного гражданина](https://mmc.mos.ru/client-office/security/lk/register?service=http://mmc.mos.ru/client-office/auth/signin-cas) ММЦ,
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [регистрации личного кабинета иностранного гражданина](https://mmc.mos.ru/client-office/security/lk/register?service=http://mmc.mos.ru/client-office/auth/signin-cas) ММЦ,
 
-### :heavy_check_mark: [восстановления пароля личного кабинета иностранного гражданина](https://mmc.mos.ru/client-office/security/auth-rvg/recovery-password?1&service=http://mmc.mos.ru/client-office/auth/signin-cas) ММЦ.
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [восстановления пароля личного кабинета иностранного гражданина](https://mmc.mos.ru/client-office/security/auth-rvg/recovery-password?1&service=http://mmc.mos.ru/client-office/auth/signin-cas) ММЦ.
 
 Данные формы являются частью разработки **Системы обеспечения информационной безопасности "ВИЗОР"**, реализованной компанией **[ФРЕШТЕХ](http://visor.frte.ru/)**, сотрудником которой я являюсь на данный момент.
 
@@ -14,21 +14,20 @@
 ## Реализованы проверки
 
 ### UI
-:green_circle: Проверка заголовка страницы входа в личный кабинет иностранного гражданина
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp;Проверка заголовка страницы входа в личный кабинет иностранного гражданина
 
-:green_circle: Лог консоли браузера на странице входа в личный кабинет не содержит ошибок
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp;Лог консоли браузера на странице входа в личный кабинет не содержит ошибок
 
-:green_circle: Переход на вкладку 'Почта' на странице входа в личный кабинет
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Переход на вкладку 'Почта' на странице входа в личный кабинет
 
-:green_circle: Попытка входа в личный кабинет с невалидным значением телефона
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Попытка входа в личный кабинет с невалидным значением телефона
 
-:green_circle: Попытка входа в личный кабинет без указания пароля
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Попытка входа в личный кабинет без указания пароля
 
-:green_circle: Переход на страницу 'Регистрация пользователя'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Переход на страницу 'Регистрация пользователя'
 
 ### API 
-
-TO DO
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; TO DO
 
 ### Команда для запуска из терминала
 

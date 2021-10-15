@@ -6,7 +6,7 @@
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [восстановления пароля личного кабинета](https://mmc.mos.ru/client-office/security/auth-rvg/recovery-password?1&service=http://mmc.mos.ru/client-office/auth/signin-cas).
 
-Данные формы являются частью разработки **Системы обеспечения информационной безопасности "ВИЗОР"**, реализованной компанией **[ФРЕШТЕХ](http://visor.frte.ru/)**, сотрудником которой я являюсь на данный момент.
+Данные формы являются частью разработки **Системы обеспечения информационной безопасности "ВИЗОР"**, реализованной компанией **[ФРЕШТЕХ](http://visor.frte.ru/solutions/)**, сотрудником которой я являюсь на данный момент.
 
 ## Использованные технологии и инструменты
 
@@ -25,9 +25,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Попытка входа в личный кабинет без указания пароля
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Переход на страницу 'Регистрация пользователя'
-
-### API 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; TO DO
 
 ### Команда для запуска из терминала
 

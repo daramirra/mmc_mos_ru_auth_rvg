@@ -100,6 +100,10 @@ allure serve build/allure-results
   <img src="images/Allure Report steps.png" alt="Allure Report" width="900">
 </p>
 
+## <img width="4%" title="Allure TestOPS" src="images/allure-ee-logo.svg"> Интеграция с Allure TestOps 
+
+
+## <img width="4%" title="Jira" src="images/jira-logo.svg"> Интеграция с Jira
 
 ## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg"> Пример запуска теста в Selenoid 
 <p align="center">

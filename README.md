@@ -25,7 +25,6 @@
   <code><img width="5%" title="Jenkins" src="images/jenkins-logo.svg"></code>
   <code><img width="5%" title="Jira" src="images/jira-logo.svg"></code>
   <code><img width="5%" title="Telegram" src="images/Telegram.svg"></code>
-  <br/>
 </p>
 
 ## Реализованы проверки
@@ -46,20 +45,27 @@
 ## Запуск тестов из терминала
 
  > *Запуск тестов с заполненным remote.properties:*
-```
+```bash
 gradle clean test
 ```
  > *Запуск тестов без заполненного remote.properties:*
-```
+```bash
 gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
  > *Запуск тестов в несколько потоков*
-```
+```bash
 gradle clean -Dthreads=5
 ```
  >*Сформировать allure отчет:*
-```
+```bash
 allure serve build/allure-results
 ```
 
-## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/)
+## <img width="4%" title="Jenkins" src="images/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/)
+
+
+## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg">  Пример запуска теста в Selenoid 
+![Selenoid](images/video.gif)
+<br><br>
+
+<br><br>

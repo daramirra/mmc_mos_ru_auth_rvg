@@ -64,8 +64,9 @@ allure serve build/allure-results
 ## <img width="4%" title="Jenkins" src="images/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/)
 
 
-## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg">  Пример запуска теста в Selenoid 
-![Selenoid](images/video.gif)
-<br><br>
+## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg"> Пример запуска теста в Selenoid 
+<p align="center">
+  <img src="images/video.gif" alt="video" width="900">
+</p>
 
 <br><br>

@@ -100,7 +100,7 @@ allure serve build/allure-results
   <img src="images/Allure Report steps.png" alt="Allure Report" width="900">
 </p>
 
-## <img width="4%" title="Allure TestOPS" src="images/allure-ee-logo.svg"> Интеграция с Allure TestOps 
+## <img width="4%" title="Allure TestOPS" src="images/allure-ee-logo.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/548/dashboards) 
 ### :pushpin: Основной дашборд
 <p align="center">
   <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="900">

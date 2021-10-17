@@ -77,7 +77,7 @@ allure serve build/allure-results
 ```
 
 ## <img width="4%" title="Jenkins" src="images/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/)
-### Параметры сборки
+### :pushpin: Параметры сборки
 
     BROWSER (default chrome)
     BROWSER_VERSION (default 91.0)
@@ -90,11 +90,12 @@ allure serve build/allure-results
 </p>
 
 ## <img width="4%" title="Allure Report" src="images/allure-Report-logo.svg"> Отчет о результах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/5/allure/)
-### Общая информация
+### :pushpin: Общая информация
 <p align="center">
   <img src="images/Allure Report.png" alt="Allure Report" width="900">
 </p>
-### Список тестов c описанием шагов и визуализацией результатов
+
+### :pushpin: Список тестов c описанием шагов и визуализацией результатов
 <p align="center">
   <img src="images/Allure Report steps.png" alt="Allure Report" width="900">
 </p>

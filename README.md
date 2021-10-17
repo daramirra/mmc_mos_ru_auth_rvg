@@ -116,6 +116,10 @@ allure serve build/allure-results
   <img src="images/allureTestOPS launch.png" alt="launch" width="900">
 </p>
 
+### :pushpin: Тест-кейсы
+<p align="center">
+  <img src="images/Test cases.png" alt="launch" width="900">
+</p>
 
 ## <img width="4%" title="Jira" src="images/jira-logo.svg"> Интеграция с Jira
 

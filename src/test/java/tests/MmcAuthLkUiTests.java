@@ -1,9 +1,11 @@
 package tests;
 
+import annotations.Layer;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
@@ -17,6 +19,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class MmcAuthLkUiTests extends TestBase {
 
     @Test
+    @Layer("web")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Проверка заголовка страницы входа в личный кабинет иностранного гражданина")
@@ -30,6 +33,7 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Layer("web")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Лог консоли браузера на странице входа в личный кабинет не содержит ошибок")
@@ -43,6 +47,7 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Layer("web")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Переход на вкладку 'Почта' на странице входа в личный кабинет")
@@ -53,6 +58,7 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Layer("web")
     @Story("Попытка входа с невалидными данными")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
@@ -69,6 +75,7 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Layer("web")
     @Story("Попытка входа с невалидными данными")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
@@ -84,6 +91,7 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Layer("web")
     @Story("Открытие страниц")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Регистрация пользователя")

@@ -43,13 +43,23 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Переход на страницу 'Регистрация пользователя'
 
-### Команда для запуска из терминала
+## Запуск тестов из терминала
 
-Локально должны быть заданы параметры в local.properies
+ > *Запуск тестов с заполненным remote.properties:*
 ```
 gradle clean test
 ```
-Для запуска в несколько потоков
+ > *Запуск тестов без заполненного remote.properties:*
+```
+gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+```
+ > *Запуск тестов в несколько потоков*
 ```
 gradle clean -Dthreads=5
 ```
+ >*Сформировать allure отчет:*
+```
+allure serve build/allure-results
+```
+
+## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/)

@@ -13,7 +13,7 @@
 
  > *Данные формы являются частью разработки **[Системы обеспечения информационной безопасности "ВИЗОР"](http://visor.frte.ru/solutions/)**, реализованной компанией **[ФРЕШТЕХ](http://visor.frte.ru/solutions/)**, сотрудником которой я являюсь на данный момент.*
 
-## Технологии и инструменты
+## :rocket: Технологии и инструменты
 <p  align="center"
    
   <code><img width="5%" title="IntelliJ IDEA" src="images/IDEA-logo.svg"></code>
@@ -42,7 +42,7 @@
 >    
 >*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах  <code><strong>*Docker*</strong></code>.*
 
-## Реализованы проверки
+## :spiral_notepad: Реализованы проверки
 
 ### UI
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp;Проверка заголовка страницы входа в личный кабинет иностранного гражданина
@@ -57,7 +57,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_circle:&nbsp;&nbsp; Переход на страницу 'Регистрация пользователя'
 
-## Запуск тестов из терминала
+## :computer: Запуск тестов из терминала
 
  > *Запуск тестов с заполненным remote.properties:*
 ```bash

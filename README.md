@@ -106,5 +106,8 @@ allure serve build/allure-results
   <img src="images/video.gif" alt="video" width="900">
 </p>
 
-
+## <img width="4%" title="Telegram" src="images/Telegram.svg"> Уведомления в Telegram 
+<p align="center">
+  <img src="images/tlgrm.png" alt="video" width="900">
+</p>
 <br><br>

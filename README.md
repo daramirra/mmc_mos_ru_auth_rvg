@@ -1,5 +1,5 @@
-<p align="right">
-  <img src="/images/h.png" alt="video" width="500"> 
+<p align="center">
+  <img src="/images/h.png" alt="video" width="2000"> 
 <br>
 </p>
 

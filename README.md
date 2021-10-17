@@ -101,6 +101,20 @@ allure serve build/allure-results
 </p>
 
 ## <img width="4%" title="Allure TestOPS" src="images/allure-ee-logo.svg"> Интеграция с Allure TestOps 
+### :pushpin: Основной дашборд
+<p align="center">
+  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="900">
+</p>
+
+### :pushpin: Запуски
+<p align="center">
+  <img src="images/allureTestOPS launches.png" alt="launches" width="900">
+</p>
+
+### :pushpin: Результат запуска
+<p align="center">
+  <img src="images/allureTestOPS launch.png" alt="launch" width="900">
+</p>
 
 
 ## <img width="4%" title="Jira" src="images/jira-logo.svg"> Интеграция с Jira
@@ -112,6 +126,6 @@ allure serve build/allure-results
 
 ## <img width="4%" title="Telegram" src="images/Telegram.svg"> Уведомления в Telegram 
 <p align="center">
-  <img src="images/tlgrm.png" alt="video" width="900">
+  <img src="images/tlgrm.png" alt="Telegram" width="900">
 </p>
 <br><br>

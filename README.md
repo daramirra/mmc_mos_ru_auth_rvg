@@ -65,6 +65,17 @@ allure serve build/allure-results
 ```
 
 ## <img width="4%" title="Jenkins" src="images/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/)
+### Параметры сборки
+
+    BROWSER (default chrome)
+    BROWSER_VERSION (default 91.0)
+    BROWSER_SIZE (default 1920x1080)
+    REMOTE_DRIVER_URL (url address from selenoid or grid. default selenoid.autotests.cloud)
+    TREADS (default 5)
+    ALLURE_NOTIFICATIONS_VERSION (default 3.1.1)
+<p align="center">
+  <img src="images/job_param.png" alt="job" width="800">
+</p>
 
 
 ## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg"> Пример запуска теста в Selenoid 

@@ -1,36 +1,31 @@
+<img width="600px" src="/images/absgeo.png" align="right" alt="GitHub Readme Stats" />
 
-<img width="90%" align="right" alt="Github" src="https://github.com/daramirra/mmc_mos_ru_auth_rvg/blob/main/images/absgeo.png" />
+# Проект по автоматизации тестирования форм
 
-# Проект по автоматизации тестирования форм:
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [входа в личный кабинет](https://mmc.mos.ru/client-office/security/auth-rvg/login?2&service=http://mmc.mos.ru/client-office/auth/signin-cas)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [входа в личный кабинет](https://mmc.mos.ru/client-office/security/auth-rvg/login?2&service=http://mmc.mos.ru/client-office/auth/signin-cas),
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [регистрации личного кабинета](https://mmc.mos.ru/client-office/security/lk/register?service=http://mmc.mos.ru/client-office/auth/signin-cas)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [регистрации личного кабинета](https://mmc.mos.ru/client-office/security/lk/register?service=http://mmc.mos.ru/client-office/auth/signin-cas),
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [восстановления пароля личного кабинета](https://mmc.mos.ru/client-office/security/auth-rvg/recovery-password?1&service=http://mmc.mos.ru/client-office/auth/signin-cas)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [восстановления пароля личного кабинета](https://mmc.mos.ru/client-office/security/auth-rvg/recovery-password?1&service=http://mmc.mos.ru/client-office/auth/signin-cas).
-
-Данные формы являются частью разработки **[Системы обеспечения информационной безопасности "ВИЗОР"](http://visor.frte.ru/solutions/)**, реализованной компанией **[ФРЕШТЕХ](http://visor.frte.ru/solutions/)**, сотрудником которой я являюсь на данный момент.
+ > *Данные формы являются частью разработки **[Системы обеспечения информационной безопасности "ВИЗОР"](http://visor.frte.ru/solutions/)**, реализованной компанией **[ФРЕШТЕХ](http://visor.frte.ru/solutions/)**, сотрудником которой я являюсь на данный момент.*
 
 ## Использованные технологии и инструменты
-<p  align="left"
+<p  align="center"
    
   <code><img width="5%" title="IntelliJ IDEA" src="images/IDEA-logo.svg"></code>
-  <code><img width="5%" title="Java" src="images/jira-logo.svg"></code>
-  <code><img width="5%" title="Selenide" src="https://starchenkov.pro/qa-guru/img/skills/Selenide.svg"></code>
-  <code><img width="5%" title="Allure Report" src="https://starchenkov.pro/qa-guru/img/skills/Allure_Report.svg"></code>
-  <br />
-  <code><img width="5%" title="Allure TestOps" src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg"></code>
-  <code><img width="5%" title="Gradle" src="https://starchenkov.pro/qa-guru/img/skills/Gradle.svg"></code>
-  <code><img width="5%" title="JUnit5" src="https://starchenkov.pro/qa-guru/img/skills/JUnit5.svg"></code>
-  <code><img width="5%" title="Github" src="https://starchenkov.pro/qa-guru/img/skills/Github.svg"></code>
-  <code><img width="5%" title="Jenkins" src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg"></code>
-  <br />
-  <code><img width="5%" title="Docker" src="https://starchenkov.pro/qa-guru/img/skills/Docker.svg"></code>
-  <code><img width="5%" title="Rest-Assured" src="https://starchenkov.pro/qa-guru/img/skills/Rest-Assured.svg"></code>
-  <code><img width="5%" title="Appium" src="https://starchenkov.pro/qa-guru/img/skills/Appium.svg"></code>
-  <code><img width="5%" title="Browserstack" src="https://starchenkov.pro/qa-guru/img/skills/Browserstack.svg"></code>
-  <code><img width="5%" title="Gitlab" src="https://about.gitlab.com/images/press/press-kit-icon.svg"></code>
- 
+  <code><img width="5%" title="Java" src="images/java-logo.svg"></code>
+  <code><img width="5%" title="Selenide" src="images/selenide-logo.svg"></code>
+  <code><img width="5%" title="Selenoid" src="images/selenoid-logo.svg"></code>
+  <code><img width="5%" title="Gradle" src="images/gradle-logo.svg "></code>
+  <code><img width="5%" title="JUnit5" src="images/junit5-logo.svg"></code>
+  <code><img width="5%" title="Allure Report" src="images/allure-Report-logo.svg"></code>
+  <code><img width="5%" title="Allure TestOps" src="images/allure-ee-logo.svg"></code>
+  <code><img width="5%" title="Github" src="images/git-logo.svg"></code>
+  <code><img width="5%" title="Jenkins" src="images/jenkins-logo.svg"></code>
+  <code><img width="5%" title="Jira" src="images/jira-logo.svg"></code>
+  <code><img width="5%" title="Telegram" src="images/Telegram.svg"></code>
+  <br/>
 </p>
 
 ## Реализованы проверки

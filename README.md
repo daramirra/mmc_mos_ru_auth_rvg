@@ -1,6 +1,6 @@
 <p align="right">
-  <img src="/images/absgeo.png" alt="video" width="600">
-<br><br>
+  <img src="/images/absgeo.png" alt="video" width="500"> 
+<br>
 </p>
 
 # Проект по автоматизации тестирования форм

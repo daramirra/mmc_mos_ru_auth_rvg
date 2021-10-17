@@ -94,10 +94,16 @@ allure serve build/allure-results
 <p align="center">
   <img src="images/Allure Report.png" alt="Allure Report" width="900">
 </p>
+### Список тестов c описанием шагов и визуализацией результатов
+<p align="center">
+  <img src="images/Allure Report steps.png" alt="Allure Report" width="900">
+</p>
+
 
 ## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg"> Пример запуска теста в Selenoid 
 <p align="center">
   <img src="images/video.gif" alt="video" width="900">
 </p>
+
 
 <br><br>

@@ -2,7 +2,10 @@ package tests;
 
 import com.github.javafaker.Faker;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import pages.MmcLkAuthPage;
 import pages.MmcLkRegistrationPage;
@@ -14,6 +17,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class MmcAuthLkUiTests extends TestBase {
 
     @Test
+    @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Проверка заголовка страницы входа в личный кабинет иностранного гражданина")
     void checkTitleTest() {
@@ -26,6 +30,7 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Лог консоли браузера на странице входа в личный кабинет не содержит ошибок")
     void consoleLogShouldNotHaveErrors() {
@@ -38,6 +43,7 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Переход на вкладку 'Почта' на странице входа в личный кабинет")
     void checkOpenTabEmail() {
@@ -47,6 +53,8 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Story("Попытка входа с невалидными данными")
+    @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Попытка входа в личный кабинет с невалидным значением телефона")
     void inputInvalidPhoneShowErrorMessage() {
@@ -61,6 +69,8 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Story("Попытка входа с невалидными данными")
+    @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @DisplayName("Попытка входа в личный кабинет без указания пароля")
     void passwordCouldNotBeEmpty() {
@@ -74,6 +84,8 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Story("Открытие страниц")
+    @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Регистрация пользователя")
     @DisplayName("Переход на страницу 'Регистрация пользователя'")
     void checkOpenRegistrationPage() {

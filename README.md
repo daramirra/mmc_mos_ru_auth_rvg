@@ -1,4 +1,7 @@
-<img width="600px" src="/images/absgeo.png" align="right" alt="GitHub Readme Stats" />
+<p align="right">
+  <img src="/images/absgeo.png" alt="video" width="600">
+<br><br>
+</p>
 
 # Проект по автоматизации тестирования форм
 

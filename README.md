@@ -30,6 +30,18 @@
   <code><img width="5%" title="Telegram" src="images/Telegram.svg"></code>
 </p>
 
+>*В данном проекте автотесты написаны на  <code><strong>*Java*</strong></code> с использованием фреймворка <code><strong>*Selenide*</strong></code>.*
+>
+>*Для сборки проекта используется <code><strong>*Gradle*</strong></code>.*
+> 
+>*<code><strong>*JUnit 5*</strong></code> используется как фреймворк для модульного тестирования.*
+>  
+>*<code><strong>*Allure Report, Allure TestOps, Jira, Telegram Bot*</strong></code> используются для визуализации результатов тестирования.*
+>   
+>*Запуск тестов выполняется из <code><strong>*Jenkins*</strong></code>.*
+>    
+>*<code><strong>*Selenoid*</strong></code> используется для запуска браузеров в контейнерах  <code><strong>*Docker*</strong></code>.*
+
 ## Реализованы проверки
 
 ### UI
@@ -77,6 +89,11 @@ allure serve build/allure-results
   <img src="images/job_param.png" alt="job" width="800">
 </p>
 
+## <img width="4%" title="Allure Report" src="images/allure-Report-logo.svg"> Отчет о результах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/5/allure/)
+### Общая информация
+<p align="center">
+  <img src="images/Allure Report.png" alt="Allure Report" width="900">
+</p>
 
 ## <img width="4%" title="Selenoid" src="images/selenoid-logo.svg"> Пример запуска теста в Selenoid 
 <p align="center">

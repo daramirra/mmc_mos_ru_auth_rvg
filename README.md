@@ -89,7 +89,7 @@ allure serve build/allure-results
   <img src="images/job_param.png" alt="job" width="800">
 </p>
 
-## <img width="4%" title="Allure Report" src="images/allure-Report-logo.svg"> Отчет о результах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/5/allure/)
+## <img width="4%" title="Allure Report" src="images/allure-Report-logo.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/C07-daramirra-hw12/5/allure/)
 ### :pushpin: Общая информация
 <p align="center">
   <img src="images/Allure Report.png" alt="Allure Report" width="900">

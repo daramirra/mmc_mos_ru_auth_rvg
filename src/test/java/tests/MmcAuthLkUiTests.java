@@ -1,8 +1,12 @@
 package tests;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import annotations.Layer;
+import annotations.Microservice;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 
@@ -19,9 +23,11 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class MmcAuthLkUiTests extends TestBase {
 
     @Test
+    @Owner("dlapshinova")
     @Layer("web")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
+    @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Проверка заголовка страницы входа в личный кабинет иностранного гражданина")
     void checkTitleTest() {
         MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();
@@ -33,9 +39,11 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Owner("dlapshinova")
     @Layer("web")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
+    @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Лог консоли браузера на странице входа в личный кабинет не содержит ошибок")
     void consoleLogShouldNotHaveErrors() {
         MmcLkAuthPage.openPage();
@@ -47,9 +55,11 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Owner("dlapshinova")
     @Layer("web")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
+    @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Переход на вкладку 'Почта' на странице входа в личный кабинет")
     void checkOpenTabEmail() {
         MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();
@@ -58,10 +68,13 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Owner("dlapshinova")
     @Layer("web")
     @Story("Попытка входа с невалидными данными")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
+    @Microservice("Auth")
+    @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Попытка входа в личный кабинет с невалидным значением телефона")
     void inputInvalidPhoneShowErrorMessage() {
         Faker faker = new Faker();
@@ -75,10 +88,13 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Owner("darina")
     @Layer("web")
     @Story("Попытка входа с невалидными данными")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
+    @Microservice("Auth")
+    @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Попытка входа в личный кабинет без указания пароля")
     void passwordCouldNotBeEmpty() {
         Faker faker = new Faker();
@@ -91,10 +107,12 @@ public class MmcAuthLkUiTests extends TestBase {
     }
 
     @Test
+    @Owner("darina")
     @Layer("web")
     @Story("Открытие страниц")
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Регистрация пользователя")
+    @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Переход на страницу 'Регистрация пользователя'")
     void checkOpenRegistrationPage() {
         MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();

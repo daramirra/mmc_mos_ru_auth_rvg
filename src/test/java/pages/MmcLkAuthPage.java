@@ -7,13 +7,13 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class OibAuthPage extends BasePage {
-    final static String BASE_URL = "https://sdo-oib-test.it2g.ru/auth-sdo/login?service=https://sdo-oib-test.it2g.ru/organizations/shiro-cas";
+public class MmcLkAuthPage extends BasePage {
+    final static String BASE_URL = "https://mmc.mos.ru/client-office/security/auth-rvg/login?27&service=http://mmc.mos.ru/client-office/auth/signin-cas";
 
     @Step("Открыть страницу 'Вход в личный кабинет иностранного гражданина'")
-    public static OibAuthPage openPage() {
+    public static MmcLkAuthPage openPage() {
         open(BASE_URL);
-        return new OibAuthPage();
+        return new MmcLkAuthPage();
     }
 
     @Step("Перейти на вкладку 'Почта'")
@@ -47,8 +47,8 @@ public class OibAuthPage extends BasePage {
     }
 
     @Step("Нажать на ссылку 'Регистрация'")
-    public OibRegistrationPage clickRegistrationLink(){
+    public MmcLkRegistrationPage clickRegistrationLink(){
         $(By.linkText("Регистрация")).click();
-        return new OibRegistrationPage();
+        return new MmcLkRegistrationPage();
     }
 }

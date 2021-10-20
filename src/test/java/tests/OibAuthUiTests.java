@@ -9,18 +9,17 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
-
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
-import pages.MmcLkAuthPage;
-import pages.MmcLkRegistrationPage;
+import pages.OibAuthPage;
+import pages.OibRegistrationPage;
 
 import static helpers.DriverUtils.getConsoleLogs;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class MmcAuthLkUiTests extends TestBase {
+public class OibAuthUiTests extends TestBase {
 
     @Test
     @Owner("dlapshinova")
@@ -28,10 +27,10 @@ public class MmcAuthLkUiTests extends TestBase {
     @Tags({@Tag("web"), @Tag("smoke")})
     @Feature("Вход в личный кабинет")
     @JiraIssues({@JiraIssue("HOMEWORK-254")})
-    @DisplayName("Проверка заголовка страницы входа в личный кабинет иностранного гражданина")
+    @DisplayName("Проверка заголовка страницы входа")
     void checkTitleTest() {
-        MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();
-        String expectedTitle = "Вход в личный кабинет иностранного гражданина – Вход в личный кабинет иностранного гражданина";
+        OibAuthPage mmcLkAuthPage = OibAuthPage.openPage();
+        String expectedTitle = "СЛУЖБА АУТЕНТИФИКАЦИИ ПОЛЬЗОВАТЕЛЕЙ";
 
         step("Заголовок страницы входа в личный кабинет содержит '" + expectedTitle + "'", () -> {
             assertThat(mmcLkAuthPage.getTitle()).isEqualTo(expectedTitle);
@@ -46,7 +45,7 @@ public class MmcAuthLkUiTests extends TestBase {
     @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Лог консоли браузера на странице входа в личный кабинет не содержит ошибок")
     void consoleLogShouldNotHaveErrors() {
-        MmcLkAuthPage.openPage();
+        OibAuthPage.openPage();
 
         step("Страница входа в личный кабинет не содержит ошибок в логах консоли браузера", () -> {
             String consoleLogs = getConsoleLogs();
@@ -54,7 +53,7 @@ public class MmcAuthLkUiTests extends TestBase {
         });
     }
 
-    @Test
+   /* @Test
     @Owner("dlapshinova")
     @Layer("web")
     @Tags({@Tag("web"), @Tag("smoke")})
@@ -62,7 +61,7 @@ public class MmcAuthLkUiTests extends TestBase {
     @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Переход на вкладку 'Почта' на странице входа в личный кабинет")
     void checkOpenTabEmail() {
-        MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();
+        OibAuthPage mmcLkAuthPage = OibAuthPage.openPage();
         mmcLkAuthPage.openEmailTab();
         mmcLkAuthPage.emailInputExists();
     }
@@ -79,7 +78,7 @@ public class MmcAuthLkUiTests extends TestBase {
     void inputInvalidPhoneShowErrorMessage() {
         Faker faker = new Faker();
 
-        MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();
+        OibAuthPage mmcLkAuthPage = OibAuthPage.openPage();
         mmcLkAuthPage.checkPhoneInputExists();
         mmcLkAuthPage.setPhoneValue(faker.number().digits(3));
         mmcLkAuthPage.setPasswordValue(faker.number().digits(3));
@@ -99,7 +98,7 @@ public class MmcAuthLkUiTests extends TestBase {
     void passwordCouldNotBeEmpty() {
         Faker faker = new Faker();
 
-        MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();
+        OibAuthPage mmcLkAuthPage = OibAuthPage.openPage();
         mmcLkAuthPage.checkPhoneInputExists();
         mmcLkAuthPage.setPhoneValue(faker.number().digits(9));
         mmcLkAuthPage.clickEnterButton();
@@ -115,17 +114,17 @@ public class MmcAuthLkUiTests extends TestBase {
     @JiraIssues({@JiraIssue("HOMEWORK-254")})
     @DisplayName("Переход на страницу 'Регистрация пользователя'")
     void checkOpenRegistrationPage() {
-        MmcLkAuthPage mmcLkAuthPage = MmcLkAuthPage.openPage();
+        OibAuthPage mmcLkAuthPage = OibAuthPage.openPage();
         String expectedAuthTitle = "Вход в личный кабинет иностранного гражданина – Вход в личный кабинет иностранного гражданина";
         step("Заголовок страницы входа в личный кабинет содержит '" + expectedAuthTitle + "'", () -> {
             assertThat(mmcLkAuthPage.getTitle()).isEqualTo(expectedAuthTitle);
         });
 
-        MmcLkRegistrationPage mmcLkRegistrationPage = mmcLkAuthPage.clickRegistrationLink();
+        OibRegistrationPage mmcLkRegistrationPage = mmcLkAuthPage.clickRegistrationLink();
         String expectedRegistrationTitle = "Регистрация пользователя";
         step("Заголовок страницы регистрации содержит 'Регистрация пользователя'", () -> {
             assertThat(mmcLkRegistrationPage.getTitle()).isEqualTo(expectedRegistrationTitle);
         });
-    }
+}*/
 }
 

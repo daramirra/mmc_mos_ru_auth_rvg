@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="/images/h.png" alt="video" width="2000"> 
-<br>
-</p>
-
 # Проект по автоматизации тестирования форм
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [входа в личный кабинет](https://mmc.mos.ru/client-office/security/auth-rvg/login?2&service=http://mmc.mos.ru/client-office/auth/signin-cas)

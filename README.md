@@ -1,3 +1,9 @@
+<p align="right">
+<a href="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=daramirra.mmc_mos_ru_auth_rvg&color=55acb7&style=flat&logo=Github&text=Hello_Visitors!">
+  <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=daramirra.mmc_mos_ru_auth_rvg&color=55acb7&style=flat&logo=Github&text=Hello_Visitors!"/>
+</a>
+</p>
+
 # Проект по автоматизации тестирования форм
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:heavy_check_mark: [входа в личный кабинет](https://mmc.mos.ru/client-office/security/auth-rvg/login?2&service=http://mmc.mos.ru/client-office/auth/signin-cas)
